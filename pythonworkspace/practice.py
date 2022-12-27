@@ -1,13 +1,11 @@
-# Quiz) 변수를 이용하여 다음 문장을 출력하시요
+print(1 != 3)  # True
+print(not (1 != 3))  # FALSE
 
-# 변수명
-# : station
+print((3 > 0) and (3 < 5))  # True
+print((3 > 0) & (3 < 5))  # True
 
-# 변수값
-# :"사당","신도림", "인천공항" 순서대로 입력
+print((3 > 0) or (3 > 5))  # True
+print((3 > 0) | (3 > 5))  # True
 
-# 출력 문장
-# : XX 행 열차가 들어오고 있습니다.
+print(5 > 4 > 3)  # True
 
-station = "사당"
-print(station + "행 열차가 들어오고 있습니다.")
